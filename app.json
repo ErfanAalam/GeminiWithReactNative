@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "geminiApp",
+    "name": "Erfan'sChatbot",
     "slug": "geminiApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.erfanaalam.geminiApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.erfanaalam.geminiApp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e80f39b5-55dc-4323-bbdd-d0a8ce8c54e9"
+      }
     }
   }
 }
